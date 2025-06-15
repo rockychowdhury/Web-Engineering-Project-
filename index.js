@@ -1,8 +1,4 @@
 document.addEventListener('DOMContentLoaded', function() {
-    setupFormHandling();
-});
-
-function setupFormHandling() {
     const signupForm = document.getElementById('signupForm');
     const studentsTable = document.getElementById('studentsTable').getElementsByTagName('tbody')[0];
     
@@ -12,7 +8,7 @@ function setupFormHandling() {
             handleFormSubmission(signupForm, studentsTable);
         });
     }
-}
+});
 
 function handleFormSubmission(form, tableBody) {
     const formData = new FormData(form);
