@@ -1,8 +1,5 @@
 document.addEventListener('DOMContentLoaded', function() {
     setupFormHandling();
-    setupSmoothScrolling();
-    setupAnimations();
-    setupFormValidation();
 });
 
 function setupFormHandling() {
