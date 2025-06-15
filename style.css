@@ -165,7 +165,7 @@ body {
 .activity-card { box-shadow: var(--shadow); }
 .member-card { box-shadow: var(--shadow-md); }
 
-.card-icon, .member-avatar {
+.card-icon {
     width: 80px;
     height: 80px;
     background: var(--gradient-primary);
@@ -345,6 +345,13 @@ tbody tr:last-child td { border-bottom: none; }
 /* Member Card Details */
 .s-fixed { width: 40px; display: flex; align-items: center; gap: 0.5rem; }
 .img-fluid { width: 100%; height: auto; border-radius: 15px; }
+.avatar{
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-bottom: 1rem;
+}
 .position { color: var(--primary-color); font-weight: 600; margin-bottom: 0.5rem; }
 .department { color: var(--text-secondary); margin-bottom: 0.5rem; font-size: 0.9rem; }
 .email { color: var(--text-secondary); font-size: 0.8rem; word-break: break-word; }
